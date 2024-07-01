@@ -66,7 +66,7 @@ function play() {
   }
   history.push(userValue);
   // 입력 내역 보여주기
-  historyArea.textContent = history;
+  historyArea.textContent = `입력한 숫자: ${history}`;
 
   // 기회 1번일 때 텍스트 빨간색
   if (chances == 1) {
