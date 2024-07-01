@@ -45,6 +45,7 @@ function play() {
   if (history.includes(userValue)) {
     // 줄바꿈 때문에 innerHTML 사용
     resultArea.innerHTML = '이미 입력한 숫자입니다.<br>다른 숫자를 입력해 주세요.';
+    imgBox.src = 'error.jpg';
     return;
   }
 
